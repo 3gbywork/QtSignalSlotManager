@@ -51,3 +51,10 @@ else:unix: LIBS += -L$$OUT_PWD/../QtSignalSlotManager/ -lQtSignalSlotManager
 
 INCLUDEPATH += $$PWD/../QtSignalSlotManager
 DEPENDPATH += $$PWD/../QtSignalSlotManager
+
+win32:CONFIG(release, debug|release): LIBS += -L$$OUT_PWD/../QtSignalSlotManager/release/ -lQtSignalSlotManager
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$OUT_PWD/../QtSignalSlotManager/debug/ -lQtSignalSlotManager
+else:unix: LIBS += -L$$OUT_PWD/../QtSignalSlotManager/ -lQtSignalSlotManager
+
+INCLUDEPATH += $$PWD/../QtSignalSlotManager
+DEPENDPATH += $$PWD/../QtSignalSlotManager
