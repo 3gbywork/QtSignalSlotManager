@@ -27,7 +27,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>主题编号</string>
+          <string>Subject Id</string>
          </property>
         </widget>
        </item>
@@ -39,7 +39,7 @@
      <item>
       <widget class="QPushButton" name="subBtn">
        <property name="text">
-        <string>订阅</string>
+        <string>subscribe</string>
        </property>
       </widget>
      </item>
@@ -54,7 +54,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>已订阅主题</string>
+          <string>Subscribed Subjects</string>
          </property>
         </widget>
        </item>
@@ -66,7 +66,7 @@
      <item>
       <widget class="QPushButton" name="unsubBtn">
        <property name="text">
-        <string>取消订阅</string>
+        <string>unsubscribe</string>
        </property>
       </widget>
      </item>
